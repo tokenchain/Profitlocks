@@ -6,7 +6,7 @@ The decentralized profit locking machine and trade with the trends
 Operations with this positive results in the console.
 
 Features:
-* websocket
+* latest iterations uses websocket protocol for all real time responsivnes
 * multiple exchanges all at once
 * multiple currencies
 * X-cross-exchange bot
