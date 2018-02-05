@@ -16,3 +16,4 @@ Features:
 * realtime trading environment
 * built-in telegram notifications
 * console emoij support
+* Binance, Bitfinex, Bitstamp, CEX, ZB, Onecoin, Bittrex, Bittrem
