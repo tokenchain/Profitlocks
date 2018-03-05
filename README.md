@@ -12,7 +12,7 @@ Features:
 * multiple exchanges all at once
 * multiple currencies
 * X-cross-exchange bot
-* triangular exchange bot
+* triangular exchange bot🤖 
 * fail over restart feature
 * supported by postgres DB for all trading data
 * realtime trading environment
