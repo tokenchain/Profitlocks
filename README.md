@@ -1,9 +1,7 @@
-# Profitlocks
 ![ProfCoks](https://user-images.githubusercontent.com/629338/36960338-93be8f56-2081-11e8-9588-114d8b34c145.png)
+# Profitlocks
 
 The decentralized profit locking machine and trade with the opportunities targets
-
-
 
 Operations with this positive results in the console.
 
@@ -28,6 +26,7 @@ The program is available in here for everyone download. [DOWNLOAD](https://mega.
 - setup guide
 - configuration guide
 - free to download
+- Comprehensive manual [guide](https://github.com/tokenchain/profitlocks/wiki)
 
 ## Version Log
 
