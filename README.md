@@ -28,6 +28,10 @@ The program is available in here for everyone download. [DOWNLOAD](https://mega.
 - free to download
 
 ## Version Log
+- 3.2.10
+Support Poloniex
+Support CEX
+
 - 1.0.1
 Support online platform.
 Ready to serve for your needs.
