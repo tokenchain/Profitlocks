@@ -16,9 +16,8 @@ Features:
 * fail over restart feature
 * supported by postgres DB for all trading data
 * realtime trading environment
-* built-in telegram notifications
 * console emoij support
-* real profit double confirmations lock
+* Real profit double confirmations lock
 * BINANCE, BITSTAMP, CEX, POLONIEX, BITFINEX
 * Have your chat bot ready for all trading notifications
 
