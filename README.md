@@ -1,5 +1,7 @@
-# profitlocks
-The decentralized profit locking machine and trade with the trends
+# Profitlocks
+![ProfCoks](https://rawgit.com/deviavir/zenbot/master/assets/logo.png)
+
+The decentralized profit locking machine and trade with the opportunities targets
 
 
 
