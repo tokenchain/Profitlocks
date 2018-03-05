@@ -17,7 +17,7 @@ Features:
 * built-in telegram notifications
 * console emoij support
 * real profit double confirmations lock
-* Binance, Bitfinex, Bitstamp, CEX, ZB, Onecoin, Bittrex, Bittrem
+* BINANCE, BITSTAMP, CEX, POLONIEX, BITFINEX
 
 The program is available in here for everyone download. [DOWNLOAD](https://mega.nz/#F!Nop0FBSb!6PA8eV9mxzGg0f1IPFC_aw)
 
