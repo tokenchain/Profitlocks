@@ -110,4 +110,4 @@ Vector.prototype = {
 		this.setAngle(Math.random() * Math.PI * 2);
 		return this;
 	}
-}
+};

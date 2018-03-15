@@ -19,7 +19,7 @@ angular.module('gitHubApp')
     	$scope.url = "images/cat_" + filter.toLowerCase().split(' ').join('_') + ".png";
 
     	$scope.disableTrain = false;
-    }
+    };
 
     var perceptron = null;
 	var index = 0;
@@ -44,7 +44,7 @@ angular.module('gitHubApp')
 
         var imageData = context.getImageData(0, 0, 125, 125);
         return imageData.data;
-	}
+	};
 
 	var train = $scope.train = function(){
 
@@ -62,7 +62,7 @@ angular.module('gitHubApp')
 			$scope.trainingStarted = true;
 			iteration();
 		}
-	}
+	};
 
 	
 	var iteration = function(){
@@ -83,7 +83,7 @@ angular.module('gitHubApp')
 			perceptron.propagate(.12, pixel(filtered_data,0,0));
 		}
 		preview();
-	}
+	};
 
 	var pixel = function(data, ox, oy){
 		var y = index / 125 | 0;
@@ -99,7 +99,7 @@ angular.module('gitHubApp')
         var blue = data[((125 * y) + x) * 4 + 2];
 
         return [red / 255, green / 255, blue / 255];
-	}
+	};
 
 	var preview = function(){
 		$('#iterations').text(trial);

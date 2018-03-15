@@ -2,9 +2,6 @@
   "name": "Profitlocks",
   "description": "",
   "main": "index.js",
-  "authors": [
-    "jhes <ooxfordck@gmail.com>"
-  ],
   "license": "MIT",
   "homepage": "https://github.com/tokenchain/Profitlocks",
   "ignore": [

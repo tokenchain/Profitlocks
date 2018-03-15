@@ -55,30 +55,4 @@
             <button class="btn btn-primary run-demo">START TRAINING</button>
         </div>
     </div>
-    <hr>
-    <div ng-if="outputs.length > 0" class="row">
-        <div ng-repeat="result in outputs">
-            <div class="col-xs-12 text-center">
-                <p><strong>input:</strong>&nbsp;<span class="label label-default label-lg">{{result.input}}</span>
-                    &nbsp;&nbsp;
-                    <strong>output:</strong>&nbsp;<span
-                            class="label label-lg"
-                            ng-class="{ 'label-success': result.target == 0 ? result.output < .5 : result.output > .5, 'label-danger': result.target == 1 ? result.output < .5 : result.output > .5 }"
-                    >{{ result.output }}</span>
-                    &nbsp;<span class="label label-default label-lg">{{ result.target }}</span>
-                    &nbsp;<i ng-show="result.target == 0 ? result.output < .5 : result.output > .5"
-                             class="fa fa-check text-success"></i>
-                    <i ng-show="result.target == 1 ? result.output < .5 : result.output > .5"
-                       class="fa fa-check text-danger"></i>
-            </div>
-            </p>
-        </div>
-    </div>
-    <hr ng-if="outputs.length > 0">
-    <div ng-if="outputs.length > 0" class="row text-center">
-        <strong>Iterations:</strong> {{results.iterations}} -
-        <strong title='Mean Square Error'>MSE:</strong> {{results.error.toFixed(4)}} -
-        <strong>Time:</strong> {{results.time}} ms
-    </div>
-    <hr ng-if="outputs.length > 0">
 </div>

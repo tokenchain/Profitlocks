@@ -1,6 +1,6 @@
 function blastoff()
 {
-	var canvas = $("#canvas")[0];
+	var canvas = $("#canvasc")[0];
 	var ctx = canvas.getContext('2d');
 
 	var num = 10;
@@ -8,10 +8,10 @@ function blastoff()
 
 	canvas.width = $('#canvas-container').width();
 	$(window).resize(function(){
-		var width =  $('#canvas-container').width();;
-		canvas.width = width;
+        var width = $ ('#canvas-container').width ();
+        canvas.width = width;
 		world.width = width;
-	})
+	});
 
 	var world = {
 		width: 0,
@@ -20,7 +20,7 @@ function blastoff()
 		width: canvas.width,
 		height: canvas.height,
 		context: ctx
-	}
+	};
 
 	// popullate
 	for (var i = 0; i < num; i++)
@@ -35,17 +35,17 @@ function blastoff()
 	var targetX = function(creature){
 		var cohesion = creature.cohesion(world.creatures);
 		return cohesion.x / world.width;
-	}
+	};
 
 	var targetY = function(creature){
 		var cohesion = creature.cohesion(world.creatures);
 		return cohesion.y / world.height;
-	}
+	};
 
 	var targetAngle = function(creature){
 		var alignment = creature.align(world.creatures);
 		return (alignment.angle() + Math.PI) / (Math.PI*2);
-	}
+	};
 
 	var loop = function()
 	{
@@ -81,9 +81,9 @@ function blastoff()
 		});
 		if (location.hash == "#/")
 			setTimeout(loop, 1000/fps);
-	}
+	};
 
 	// blastoff
 	loop();
-};
+}
 

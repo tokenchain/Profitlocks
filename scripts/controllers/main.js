@@ -25,7 +25,7 @@ angular.module('gitHubApp')
 	    var elemBottom = elemTop + elem.height();
 
 	    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-	}
+	};
 
     win.scroll(function(event) {
 	  elements.each(function(i, el) {
@@ -35,6 +35,6 @@ angular.module('gitHubApp')
 	    } 
 	  });
 	});
-	
-    blastoff(); // kick it
+      setup ();
+    //blastoff(); // kick it
   });

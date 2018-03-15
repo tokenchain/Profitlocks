@@ -28,7 +28,7 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-        .when('/tg', {
+        .when('/tg-setup', {
             templateUrl: 'views/tg.html',
             controller: 'AboutCtrl'
         })
@@ -38,7 +38,7 @@ angular
       })
       .when('/corporate', {
         templateUrl: 'views/corporate.html',
-        controller: 'AboutCtrl'
+        controller: 'SelfOrganizingMapCtrl'
       })
       .when('/dsr', {
         templateUrl: 'views/dsr.html',
@@ -48,8 +48,8 @@ angular
         templateUrl: 'views/image-filters.html',
         controller: 'ImageFiltersCtrl'
       })
-      .when('/paint-an-image', {
-        templateUrl: 'views/paint-an-image.html',
+      .when('/supported-exchanges', {
+        templateUrl: 'views/supported-exchanges.html',
         controller: 'PaintAnImageCtrl'
       })
       .when('/self-hosting', {

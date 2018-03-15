@@ -27,7 +27,7 @@ angular.module('gitHubApp')
     			if ($scope.draw[i][j] == $scope.word)
     				return false;
     	return valid;
-    }
+    };
     $scope.keyup= function(evt){
     	if (evt.which == 32 || evt.which == 13)
     	{
@@ -37,7 +37,7 @@ angular.module('gitHubApp')
     			$scope.word = "";
     		}
     	}
-    }
+    };
 
 
 
@@ -72,7 +72,7 @@ angular.module('gitHubApp')
 		console.log(key);
 
 		preview();
-    }
+    };
 
     var ascii2bin = function(ascii)
     {
@@ -83,11 +83,11 @@ angular.module('gitHubApp')
     		bin += ('00000000' + code.toString(2)).slice(-8);
     	}
     	return bin.slice(-10 * 8).split('').reverse();
-    }
+    };
 
     var bin2dec = function(bin){
     	return parseInt(bin.join(''), 2);
-    }
+    };
 
     var doTrain = function(set){
     	trainer.train(set, {
@@ -95,7 +95,7 @@ angular.module('gitHubApp')
 			error: .5,
 			rate: .05
 		});
-    }
+    };
 
     $scope.map[ascii2bin("cat").join('')] = ["cat"];
     $scope.map[ascii2bin("dog").join('')] = ["dog"];
@@ -111,7 +111,7 @@ angular.module('gitHubApp')
 	doTrain(set);
 
 	var preview = function(){
-		var draw = []
+		var draw = [];
 		for (var i in $scope.map)
 		{
 			var row = draw.push([]) - 1;
@@ -119,7 +119,7 @@ angular.module('gitHubApp')
 				draw[row].push($scope.map[i][j]);
 		}
 		$scope.draw = draw;
-	}
+	};
 
 	preview();
 

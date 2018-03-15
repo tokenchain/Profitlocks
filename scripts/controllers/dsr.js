@@ -64,7 +64,7 @@ angular.module('gitHubApp')
 				}
 			}, 32);
 		});
-	}
+	};
 
 	var validate = $scope.validate = function(){
 		
@@ -92,7 +92,7 @@ angular.module('gitHubApp')
 
 		$scope.sequence = [];
 		next();
-	}
+	};
 
 	var next = function(){
 		// generate input from sequence
@@ -146,7 +146,7 @@ angular.module('gitHubApp')
 				validate();
 			}
 		}
-	}
+	};
 
 	var noRepeat = function(range, avoid)
 	{
@@ -156,13 +156,13 @@ angular.module('gitHubApp')
 			if (number == avoid[i])
 				used = true;
 		return used ? noRepeat(range, avoid) : number;
-	}
+	};
 	var equal = function(prediction, output){
 		for (var i in prediction)
 			if (Math.round(prediction[i]) != output[i])
 				return false;
 		return true;
-	}
+	};
 
 	var value = function(array){
 		var max = .5;
@@ -174,13 +174,13 @@ angular.module('gitHubApp')
 				res = i;
 			}
 		return res == -1 ? 'none' : res;
-	}
+	};
 
 	$scope.getColor = function(id){
 		if (typeof id == 'undefined')
 			return "fa fa-circle-o text-muted";
 		return "fa fa-circle text-" + (id == 0 ? 'muted' : id == 1 ? 'black' : id == 2 ? 'info' : id == 3 ? 'warning' : id == 4 ? 'success' : 'danger');
-	}
+	};
 
 	$scope.getTitle = function(id){
 		if (typeof id == 'undefined')

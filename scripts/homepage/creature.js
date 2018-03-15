@@ -99,7 +99,7 @@ Creature.prototype = {
 
 	seek: function(target)
 	{
-		var seek = target.copy().sub(this.location)
+		var seek = target.copy().sub(this.location);
 		seek.normalize();
 		seek.mul(this.maxspeed);
 		seek.sub(this.velocity).limit(0.3);
@@ -116,7 +116,7 @@ Creature.prototype = {
 		{
 			if (neighboors[i] != this)
 			{	
-				var d = this.location.dist(neighboors[i].location)
+				var d = this.location.dist(neighboors[i].location);
 				if (d < 24 && d > 0)
 				{
 					var diff = this.location.copy().sub(neighboors[i].location);
@@ -133,7 +133,7 @@ Creature.prototype = {
 		sum.div(count);
 		sum.normalize();
 		sum.mul(this.maxspeed);
-		sum.sub(this.velocity)
+		sum.sub(this.velocity);
 		sum.limit(this.maxforce);
 
 		return sum.mul(2);
@@ -176,4 +176,4 @@ Creature.prototype = {
 
 		return sum;
 	}
-}
+};

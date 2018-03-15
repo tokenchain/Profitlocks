@@ -23,7 +23,7 @@ angular.module('gitHubApp')
 			rate: 1
 		});
 		validate();
-	}
+	};
 
 	var validate = function(){
 		$scope.outputs = [];

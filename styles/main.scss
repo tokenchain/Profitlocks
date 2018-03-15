@@ -12,6 +12,17 @@ body {
   padding: 0;
 }
 
+#canvas_md{
+  padding:0px;
+  animation: rot 60s linear infinite;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  } 100% {
+      transform: rotate(360deg);
+    }
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
