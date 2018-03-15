@@ -1,0 +1,101 @@
+<div class="container telegram">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-header">Setup Telegram bot to Config your chat bot with Trading Updates</h1>
+            <div>
+                    <p>
+                        In Telegram, send a private message to <a href="https://telegram.me/botfather"
+                                                                     class="urlextern"
+                                                                     title="https://telegram.me/botfather"
+                                                                     rel="nofollow">@BotFather</a> (NOT to be confused
+                        with TheBotFather ​channel)
+                    </p>
+                    <ul class=" fix-media-list-overlap">
+                        <li class="level1">
+                            <div class="li"> Once there type “/​newbot” ​to create a bot. Answer the questions ​by
+                                typing answers and pressing enter.
+                            </div>
+                        </li>
+                        <li class="level1">
+                            <div class="li"> You will receive a message ​containing your bot token.</div>
+                        </li>
+                    </ul>
+
+                    <p>
+                       Start a chat with your bot's name (for example ​@MyTPBot) and press start button ​
+                    </p>
+
+                    <p>
+                       Start another ​chat with <a href="https://t.me/MyTelegramID_bot" class="urlextern"
+                                                       title="https://t.me/MyTelegramID_bot" rel="nofollow">https://t.me/MyTelegramID_bot</a>.
+                    </p>
+                    <ul class=" fix-media-list-overlap">
+                        <li class="level1">
+                            <div class="li"> If that doesn't work, try a chat with <a
+                                    href="https://​telegram.me/​id_chatbot" class="urlextern"
+                                    title="https://​telegram.me/​id_chatbot" rel="nofollow">https://​telegram.me/​id_chatbot</a>
+                            </div>
+                        </li>
+                        <li class="level2">
+                            <div class="li"> or paste @id_chatbot into a telegram chat and click it. It should open the
+                                chat id bot in a new chat.
+                            </div>
+                        </li>
+                        <li class="level2">
+                            <div class="li"> or send a message to: @userinfobot with content: /start</div>
+                        </li>
+                        <li class="level2">
+                            <div class="li"> Finally, here is a link to a page <a
+                                    href="https://ebotstore.de/bot/mytelegramidbot-telegram" class="urlextern"
+                                    title="https://ebotstore.de/bot/mytelegramidbot-telegram" rel="nofollow">https://ebotstore.de/bot/mytelegramidbot-telegram</a>
+                                with a couple more ID chatbots for telegram that you can click if the above doesn't get
+                                a valid response.
+                            </div>
+                        </li>
+                    </ul>
+
+                    <p>
+                       Edit <a href="/doku.php?id=application.properties" class="wikilink1"
+                                   title="application.properties">application.properties</a> ​and set :
+                    </p>
+                    <pre class="file">TELEGRAM_BOT_TOKEN = your bot token (ex: 125634789:AdGsJXvOnWxasdtasrfanmvlQQfb-aaa)
+TELEGRAM_CHAT_ID = your chat ID (ex: 1234567890 or -1234567890 for groups)</pre>
+
+                    <p>
+                        Stop and restart ProfitLocks. Remember if in Mac or Linux to CTRL-C the process if in a
+                        terminal window or stop the pm2 process or other process manager.
+                    </p>
+
+                    <p>
+                        Go to <a href="http://localhost:8081/settings/telegramTestMessage" class="urlextern"
+                                    title="http://localhost:8081/settings/telegramTestMessage" rel="nofollow">http://localhost:8081/settings/telegramTestMessage</a>
+                        to test your telegram setup. You will receive a message ​if the setup is correct.
+                    </p>
+
+                    <p>
+                        <strong>NOTES</strong>:
+                    </p>
+                    <ol class=" fix-media-list-overlap">
+                        <li class="level1">
+                            <div class="li"> You will not receive any messages when in testmode.</div>
+                        </li>
+                        <li class="level1">
+                            <div class="li"> For <strong>group chats</strong> invite <a
+                                    href="https://​telegram.me/​myidbot" class="urlextern"
+                                    title="https://​telegram.me/​myidbot"
+                                    rel="nofollow">https://​telegram.me/​myidbot</a> to the existing group and type
+                                /getgroupid@myidbot (include the '-' symbol when adding it to your
+                                application.properties file <br>
+                            </div>
+                        </li>
+                        <li class="level1">
+                            <div class="li"> Remember to click “Start” at the bottom of the page when you start a new
+                                chat.
+                            </div>
+                        </li>
+                    </ol>
+
+            </div>
+        </div>
+    </div>
+</div>

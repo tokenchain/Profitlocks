@@ -1,9 +1,10 @@
 {
   "name": "angular-touch",
-  "version": "1.3.14",
+  "version": "1.6.9",
+  "license": "MIT",
   "main": "./angular-touch.js",
   "ignore": [],
   "dependencies": {
-    "angular": "1.3.14"
+    "angular": "1.6.9"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "Profitlocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tokenchain/Profitlocks.git",
+  "author": "jhes <ooxfordck@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.8.2"
+  }
+}

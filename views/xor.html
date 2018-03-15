@@ -1,45 +1,84 @@
 <div class="container demo-page">
-	<div class="row">
-		<div class="col-md-12">
-		<h1 class="page-header">XOR</h1>
-		<div>
-
-			<p class="text-justify">In this sample, a simple perceptron (2 inputs, 3 hidden and 1 output neurons) will be trained to learn how to solve an XOR.</p>
-			<div class="col-md-6">
-			<pre>var perceptron = new Architect.Perceptron(2,3,1);
-perceptron.trainer.XOR(); </pre>
-</div>
-			
-		</div>
-	</div>
-	</div>
-	<div class="row text-center">
-		<div class="col-md-12">
-			<button class="btn btn-primary run-demo" ng-click="train()">START TRAINING</a>
-		</div>
-	</div>
-	<hr>
-	<div ng-if="outputs.length > 0" class="row">
-		<div ng-repeat="result in outputs">
-			<div class="col-xs-12 text-center">
-			<p><strong>input:</strong>&nbsp;<span class="label label-default label-lg">{{result.input}}</span>
-			&nbsp;&nbsp;
-			<strong>output:</strong>&nbsp;<span 
-				class="label label-lg" 
-				ng-class="{ 'label-success': result.target == 0 ? result.output < .5 : result.output > .5, 'label-danger': result.target == 1 ? result.output < .5 : result.output > .5 }"
-			>{{ result.output }}</span>
-			&nbsp;<span class="label label-default label-lg">{{ result.target }}</span>
-			&nbsp;<i ng-show="result.target == 0 ? result.output < .5 : result.output > .5" class="fa fa-check text-success"></i>
-			 <i ng-show="result.target == 1 ? result.output < .5 : result.output > .5" class="fa fa-check text-danger"></i>
-			</div>
-			</p>
-		</div>
-	</div>
-	<hr ng-if="outputs.length > 0">
-	<div ng-if="outputs.length > 0" class="row text-center">
-		<strong>Iterations:</strong> {{results.iterations}} - 
-		<strong title='Mean Square Error'>MSE:</strong> {{results.error.toFixed(4)}} - 
-		<strong>Time:</strong> {{results.time}} ms 
-	</div>
-	<hr ng-if="outputs.length > 0">
+    <div class="row">
+        <div class="col-md-12">
+            <div>
+                <h1 class="page-header">Mission</h1>
+                <p class="text-justify">Our mission and the ultimate purpose of profitlocks is to enable investors in
+                    our token to build wealth through the power of artificial intelligence and the public
+                    blockchain.</p>
+            </div>
+            <div>
+                <h1 class="page-header">Strategy</h1>
+                <p class="text-justify">
+                    We envision a steady flow of profits and reinvestment using a distinctive two stage strategy.
+                    Trading cryptocurrencies with artificial intelligence will provide short term gains and the fuel to
+                    drive our longer term vision of becoming one of the most successful seed investors in the AI and
+                    Public Blockchain space. We believe this bold vision is completely attainable even with a relatively
+                    modest starting point because of our unique two stage strategy.</p>
+            </div>
+            <div>
+                <h1 class="page-header">Vision</h1>
+                <p class="text-justify">
+                    Through the voting functionality embedded in the Smart Contract, the ‘wisdom of the crowd’ drives
+                    how
+                    the PLCoin Collective of token holders direct investment decisions. These decisions are then
+                    executed by
+                    the Executive Team through a proprietary trading company based in Hong Kong. The long-term goal is
+                    to
+                    create a portfolio of investments in early stage companies in two of the most disruptive sectors
+                    represented in today’s tech markets – blockchain and artificial intelligence. Capital not being used
+                    for
+                    start-up investments is traded by proprietary AI models that attempt to increase the amount of
+                    investment capital available. If necessary excess profits generated through market trading can also
+                    be
+                    deployed to purchase PLCoin tokens at just below asset value to keep token price in-step with the
+                    value
+                    of the underlying assets held by the Hong Kong company. These tokens can then be sold at a price
+                    that
+                    generates a return for the Collective – thus creating another revenue stream for the benefit of
+                    token
+                    holders.
+                </p>
+                <p class="text-justify">
+                    PLCoin is specifically designed to benefit individual investors by allowing them to become part of a
+                    collective. This collective is created with the recognition that to hold investments in other
+                    companies
+                    and hold assets with value, a framework must be built that recognises and respects the rights of all
+                    owners of this collective. With that said, our vision for PLCoin is to bridge the divide between a
+                    conventional exchange trading / investment company and a DAO without formal structure.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-12">
+            <button class="btn btn-primary run-demo">START TRAINING</button>
+        </div>
+    </div>
+    <hr>
+    <div ng-if="outputs.length > 0" class="row">
+        <div ng-repeat="result in outputs">
+            <div class="col-xs-12 text-center">
+                <p><strong>input:</strong>&nbsp;<span class="label label-default label-lg">{{result.input}}</span>
+                    &nbsp;&nbsp;
+                    <strong>output:</strong>&nbsp;<span
+                            class="label label-lg"
+                            ng-class="{ 'label-success': result.target == 0 ? result.output < .5 : result.output > .5, 'label-danger': result.target == 1 ? result.output < .5 : result.output > .5 }"
+                    >{{ result.output }}</span>
+                    &nbsp;<span class="label label-default label-lg">{{ result.target }}</span>
+                    &nbsp;<i ng-show="result.target == 0 ? result.output < .5 : result.output > .5"
+                             class="fa fa-check text-success"></i>
+                    <i ng-show="result.target == 1 ? result.output < .5 : result.output > .5"
+                       class="fa fa-check text-danger"></i>
+            </div>
+            </p>
+        </div>
+    </div>
+    <hr ng-if="outputs.length > 0">
+    <div ng-if="outputs.length > 0" class="row text-center">
+        <strong>Iterations:</strong> {{results.iterations}} -
+        <strong title='Mean Square Error'>MSE:</strong> {{results.error.toFixed(4)}} -
+        <strong>Time:</strong> {{results.time}} ms
+    </div>
+    <hr ng-if="outputs.length > 0">
 </div>

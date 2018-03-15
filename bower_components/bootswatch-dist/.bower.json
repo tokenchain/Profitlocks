@@ -6,7 +6,6 @@
   ],
   "description": "Distribution packages for Bootswatch themes. Just the ones ready to use with Bower.",
   "main": [
-    "css/bootstrap.css",
     "js/bootstrap.js"
   ],
   "dependencies": {
@@ -44,14 +43,13 @@
     "Gruntfile.js",
     ".gitignore"
   ],
-  "_release": "72b6073d55",
+  "_release": "7fe817e4b8",
   "_resolution": {
     "type": "branch",
     "branch": "simplex",
-    "commit": "72b6073d55d5d5921ab4e768cd73c72d9e3c34b4"
+    "commit": "7fe817e4b885f0e7ed85907e799e563409f2fc39"
   },
-  "_source": "git://github.com/dbtek/bootswatch-dist.git",
+  "_source": "https://github.com/dbtek/bootswatch-dist.git",
   "_target": "simplex",
-  "_originalSource": "bootswatch-dist",
-  "_direct": true
+  "_originalSource": "bootswatch-dist"
 }

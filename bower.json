@@ -1,0 +1,31 @@
+{
+  "name": "Profitlocks",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jhes <ooxfordck@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tokenchain/Profitlocks",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.3.0",
+    "angular-bootstrap": "~0.12.1",
+    "angular-cookies": "^1.3.0",
+    "angular-mocks": "^1.3.0",
+    "angular-touch": "^1.3.0",
+    "angular-route": "^1.3.0",
+    "angular-resource": "^1.3.0",
+    "angular-sanitize": "^1.3.0",
+    "animate.css": "~3.2.1",
+    "bootstrap": "^3.2.0",
+    "bootswatch-dist": "simplex",
+    "font-awesome": "~4.3.0"
+  }
+}

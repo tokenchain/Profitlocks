@@ -28,11 +28,15 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+        .when('/tg', {
+            templateUrl: 'views/tg.html',
+            controller: 'AboutCtrl'
+        })
       .when('/wikipedia', {
         templateUrl: 'views/wikipedia.html',
         controller: 'WikipediaCtrl'
       })
-      .when('/xor', {
+      .when('/corporate', {
         templateUrl: 'views/xor.html',
         controller: 'XorCtrl'
       })
@@ -48,7 +52,7 @@ angular
         templateUrl: 'views/paint-an-image.html',
         controller: 'PaintAnImageCtrl'
       })
-      .when('/self-organizing-map', {
+      .when('/self-hosting', {
         templateUrl: 'views/self-organizing-map.html',
         controller: 'SelfOrganizingMapCtrl'
       })
