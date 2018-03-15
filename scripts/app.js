@@ -37,8 +37,8 @@ angular
         controller: 'WikipediaCtrl'
       })
       .when('/corporate', {
-        templateUrl: 'views/xor.html',
-        controller: 'XorCtrl'
+        templateUrl: 'views/corporate.html',
+        controller: 'AboutCtrl'
       })
       .when('/dsr', {
         templateUrl: 'views/dsr.html',
@@ -53,7 +53,7 @@ angular
         controller: 'PaintAnImageCtrl'
       })
       .when('/self-hosting', {
-        templateUrl: 'views/self-organizing-map.html',
+        templateUrl: 'views/self-hosting.html',
         controller: 'SelfOrganizingMapCtrl'
       })
       .otherwise({
