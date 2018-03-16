@@ -36,5 +36,4 @@ angular.module('gitHubApp')
 	  });
 	});
       setup ();
-    //blastoff(); // kick it
   });
