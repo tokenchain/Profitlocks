@@ -1,5 +1,4 @@
 'use strict';
-
 /**
  * @ngdoc overview
  * @name gitHubApp
@@ -28,10 +27,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-        .when('/tg-setup', {
+      .when('/tg-setup', {
             templateUrl: 'views/tg.html',
             controller: 'AboutCtrl'
-        })
+      })
       .when('/wikipedia', {
         templateUrl: 'views/wikipedia.html',
         controller: 'WikipediaCtrl'
@@ -39,6 +38,10 @@ angular
       .when('/corporate', {
         templateUrl: 'views/corporate.html',
         controller: 'SelfOrganizingMapCtrl'
+      })
+      .when('/jobs-career', {
+        templateUrl: 'views/jobs.html',
+        controller: 'AboutCtrl'
       })
       .when('/dsr', {
         templateUrl: 'views/dsr.html',
