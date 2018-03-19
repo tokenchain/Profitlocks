@@ -63,6 +63,10 @@ angular
         templateUrl: 'views/otc.html',
         controller: 'SelfOrganizingMapCtrl'
       })
+        .when('/airdrop', {
+            templateUrl: 'views/about.html',
+            controller: 'SelfOrganizingMapCtrl'
+        })
       .otherwise({
         redirectTo: '/'
       });
