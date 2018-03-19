@@ -59,6 +59,10 @@ angular
         templateUrl: 'views/self-hosting.html',
         controller: 'SelfOrganizingMapCtrl'
       })
+        .when('/otc-trading', {
+        templateUrl: 'views/otc.html',
+        controller: 'SelfOrganizingMapCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
