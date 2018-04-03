@@ -28,8 +28,8 @@ angular
         controller: 'AboutCtrl'
       })
       .when('/tg-setup', {
-            templateUrl: 'views/tg.html',
-            controller: 'AboutCtrl'
+        templateUrl: 'views/tg.html',
+        controller: 'AboutCtrl'
       })
       .when('/wikipedia', {
         templateUrl: 'views/wikipedia.html',
@@ -63,10 +63,10 @@ angular
         templateUrl: 'views/otc.html',
         controller: 'SelfOrganizingMapCtrl'
       })
-        .when('/airdrop', {
-            templateUrl: 'views/about.html',
-            controller: 'SelfOrganizingMapCtrl'
-        })
+      .when('/airdrop', {
+        templateUrl: 'views/about.html',
+        controller: 'SelfOrganizingMapCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

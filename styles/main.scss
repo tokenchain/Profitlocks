@@ -165,6 +165,7 @@ body {
 .demo-page {
   margin-top: 15px;
 }
+
 .run-demo {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -206,3 +207,38 @@ li a {
 .container_layer_top {
 
 }
+
+.bannerfw {
+  h2 {
+    color: white;
+  }
+  p {
+    font-size: 15px;
+  }
+  height: auto;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 55%;
+  &.tg {
+    background-position: 0px 15%;
+  }
+}
+
+.support {
+
+  &-ex {
+    background-image: url('../images/o_38908384001921.jpg');
+  }
+  &-selfhost {
+    background-image: url('../images/o_z930921.jpg');
+  }
+  &-tg {
+    background-image: url('../images/o_tg_90912212.jpg');
+    p{
+      color: #000000;
+    }
+  }
+}
+
+
