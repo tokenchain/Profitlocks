@@ -1,5 +1,6 @@
-![ProfCoks](https://user-images.githubusercontent.com/629338/36960338-93be8f56-2081-11e8-9588-114d8b34c145.png)
 # Profitlocks
+
+![ProfCoks](https://user-images.githubusercontent.com/629338/36960338-93be8f56-2081-11e8-9588-114d8b34c145.png)
 
 The decentralized profit locking machine and trade with the opportunities targets on the railway.
 
