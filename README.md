@@ -4,10 +4,10 @@
 The decentralized profit locking machine and trade with the opportunities targets on the railway.
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tokenchain/profitlocks/issues)
+## Supported Exchanges
+We provide on-going long term supports for all listed exchanges and the planned exchanges.
 
-Operations with this positive results in the console.
-
-Features:
+## Features:
 * latest iterations uses websocket protocol for all real time responsivnes
 * multiple exchanges all at once
 * multiple currencies
@@ -18,7 +18,6 @@ Features:
 * realtime trading environment
 * console emoij support
 * Real profit double confirmations lock
-* BINANCE, BITSTAMP, CEX, POLONIEX, BITFINEX
 * Have your chat bot ready for all trading notifications
 
 The program is available in here for everyone download. [DOWNLOAD](https://mega.nz/#F!Nop0FBSb!6PA8eV9mxzGg0f1IPFC_aw)
@@ -30,18 +29,8 @@ The program is available in here for everyone download. [DOWNLOAD](https://mega.
 - free to download
 - Comprehensive manual [guide](https://github.com/tokenchain/profitlocks/wiki)
 
-## Version Log
-
-#### 3.2.10
-
-- Support Poloniex
-- Support CEX
-
-#### 1.0.1
-
-- Support online platform.
-- Ready to serve for your needs.
-
+## Releases
+The official releases are all [listed in here](https://github.com/tokenchain/Profitlocks/releases)
 
 ## Disclaimer
 USE THE SOFTWARE AT YOUR OWN RISK. YOU ARE RESPONSIBLE FOR YOUR OWN MONEY. THE AUTHOR HAS NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
