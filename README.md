@@ -34,5 +34,3 @@ The official releases are all [listed in here](https://github.com/tokenchain/Pro
 
 ## Disclaimer
 USE THE SOFTWARE AT YOUR OWN RISK. YOU ARE RESPONSIBLE FOR YOUR OWN MONEY. THE AUTHOR HAS NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
-
-<img width="929" alt="2018-02-05 12 03 05" src="https://user-images.githubusercontent.com/629338/35781821-7ce6c0ee-0a08-11e8-9814-87fb6ac37470.png">
