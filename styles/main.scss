@@ -235,10 +235,16 @@ li a {
   }
   &-tg {
     background-image: url('../images/o_tg_90912212.jpg');
-    p{
+    p {
       color: #000000;
     }
   }
 }
 
-
+.featureblue {
+  background: -webkit-linear-gradient(top, #14456a, #14456b);
+  background: -moz-linear-gradient(top, #14456a, #14456b);
+  background: -o-linear-gradient(top, #14456a, #14456b);
+  background: -ms-linear-gradient(top, #14456a, #14456b);
+  background: linear-gradient(180deg, #14456a, #14456b);
+}

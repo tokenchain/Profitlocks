@@ -26,7 +26,9 @@
 
             <div id="canvas-container" class="col-md-7">
                 <div class="row text-center" style="background-color: rgba(25,25,23,0.65)">
-                    <p class="lead" style="color: white">The Bleeding Edged single trading worker that lives on <strong>MacOS/Linux/Windows</strong>
+                    <img width="410px" src="./images/profitlock_dko3.png" class="container-fluid text-center"/>
+                    <p class="lead" style="color: white">
+                        The Bleeding Edged single trading worker that lives on <strong>MacOS/Linux/Windows</strong>
                         cross platforms.
                     </p>
                 </div>
@@ -56,7 +58,6 @@
                         gate
                         connections between other neurons. This allows you to create complex and flexible
                         architectures.
-                      神经元是神经网络的基本单元。 它们可以连接到另一个神经元或其他神经元之间的门连接。 这使您可以创建复杂而灵活的体系结构。
                     </p>
                 </div>
             </div>
@@ -73,9 +74,8 @@
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">Networks</h4>
-                    <p>Networks can be imported/exported to JSON, converted to workers or standalone functions. They can be connected to other networks or gate connections.网络可以导入/导出到JSON，转换为工作人员或独立功能。 他们
-                        能够
-                         连接到其他网络或门连接。</p>
+                    <p>Networks can be imported/exported to JSON, converted to workers or standalone functions. They can be connected to other networks or gate connections.
+                    </p><p>网络可以导入/导出到JSON，转换为工作人员或独立功能。 他们能够连接到其他网络或门连接。</p>
                 </div>
             </div>
         </div>
@@ -97,12 +97,8 @@
                         It
                         includes built-in tasks to test networks, like learning an XOR, completing a Discrete
                         Sequence
-                        Recall task. 培训师可以使用任何给定的网络，而不管其架构如何，并使用任何培训集。
-                         它
-                         包括测试网络的内置任务，如学习异或，完成离散
-                         序列
-                         召回任务。</p>
-
+                        Recall task. </p>
+                    <p>培训师可以使用任何给定的网络，而不管其架构如何，并使用任何培训集。 它包括测试网络的内置任务，如学习异或，完成离散 序列 召回任务。</p>
                 </div>
             </div>
         </div>
@@ -169,25 +165,40 @@
         </div>
     </div>
 
+
     <div class="row">
-      <div class="col-lg-12">
-          <h3 class="page-header">中国基地项目</h3>
-          <p>We offer a number of bespoke sponsorship packages tailored to your company’s marketing needs and budget,
-              including exhibition and meeting space as well as signage and merchandise.</p>
-          <p>Please send us an email and a member of our team will get back to you shortly.</p>
-      </div>
+        <div class="col-lg-12">
+            <script type="text/javascript">
+                baseUrl = "https://widgets.cryptocompare.com/";
+                var scripts = document.getElementsByTagName ("script");
+                var embedder = scripts[scripts.length - 1];
+                (function () {
+                    var appName = encodeURIComponent (window.location.hostname);
+                    if (appName == "") {
+                        appName = "local";
+                    }
+                    var s = document.createElement ("script");
+                    s.type = "text/javascript";
+                    s.async = true;
+                    var theUrl = baseUrl + 'serve/v1/coin/header?fsym=BTC&tsyms=USD,CNY,KRW,AED';
+                    s.src = theUrl + (theUrl.indexOf ("?") >= 0 ? "&" : "?") + "app=" + appName;
+                    embedder.parentNode.appendChild (s);
+                }) ();
+            </script>
+        </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
             <h3 class="page-header">Become A Sponsor</h3>
-            <p>We offer a number of bespoke sponsorship packages tailored to your company’s marketing needs and budget,
+            <p>We offer a number of bespoke sponsorship packages tailored to your company’s marketing needs and
+                budget,
                 including exhibition and meeting space as well as signage and merchandise.</p>
             <p>Please send us an email and a member of our team will get back to you shortly.</p>
         </div>
     </div>
 </div>
-
+</div>
 
 <div class="footer">
     <div class="container">
