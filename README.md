@@ -29,7 +29,7 @@ The program is available in here for everyone download. [DOWNLOAD](https://mega.
 - configuration guide
 - free to download
 - Comprehensive manual [guide](https://github.com/tokenchain/profitlocks/wiki)
-
+- Dropbox for latest [release](https://www.dropbox.com/sh/8fm9y8ns8cwxcnh/AACGFhYY4sdErIf8sI6F24rLa?dl=0)
 ## Releases
 The official releases are all [listed in here](https://github.com/tokenchain/Profitlocks/releases)
 
